@@ -125,7 +125,6 @@ def produce_conf(data: dict, prefix: str):
             '\n# Collections\n'
             'CONFIG_PACKAGE_luci=y\n'
             '\n# Translations\n'
-            'CONFIG_LUCI_LANG_zh_Hans=y\n'
             '\n# Applications\n')
 
     with open(prefix + '.config', 'w', encoding='utf-8') as f:
